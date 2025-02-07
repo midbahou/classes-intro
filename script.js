@@ -320,3 +320,21 @@ console.log(learner1.grades);
 
 console.log(learner1.average);
 
+
+const cat7 = new Cat(2, 4, "blue", true, false);
+console.log(cat7);
+
+const dog7 = new Dog("black", true, true)
+
+// instanceof operator (inheritance)
+console.log(cat7 instanceof Cat); // true
+console.log(cat7 instanceof Animal); // true
+console.log(cat7 instanceof Object); // true
+console.log(cat7 instanceof Dog); // false
+// -----------------------------------------------
+console.log(dog7 instanceof Cat); // false
+console.log(dog7 instanceof Animal); // TRUE
+
+if (dog7 instanceof Animal) {
+  console.log(dog7.toString());
+}
