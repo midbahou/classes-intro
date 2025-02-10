@@ -317,8 +317,9 @@ console.log(learner1.grades); // you need the getter method so you can have this
 learner1.addGrades(98, 87, [95, 100, 77], [96,89]);
 console.log(learner1.grades);
 
-
+// average
 console.log(learner1.average);
+
 
 
 const cat7 = new Cat(2, 4, "blue", true, false);
